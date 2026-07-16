@@ -42,7 +42,7 @@ function populateDistricts() {
   });
 }
 
-/* ডেমো পেমেন্ট নম্বর বসানো */
+/* একটিভ পেমেন্ট নম্বর বসানো */
 function setPaymentNumbers() {
   Object.entries(paymentNumbers).forEach(([id, number]) => {
     const el = document.getElementById(id);
