@@ -15,12 +15,12 @@ const districts = [
 ].sort((a, b) => a.localeCompare(b, "bn"));
 
 /* =========================================================
-   ডেমো পেমেন্ট নম্বর
+   একটিভ পেমেন্ট নম্বর
    ========================================================= */
 const paymentNumbers = {
-  bkashNumber: "01700000000",
-  nagadNumber: "01800000000",
-  rocketNumber: "01900000000"
+  bkashNumber: "01842151907",
+  nagadNumber: "01722144619",
+  rocketNumber: "01838962362"
 };
 
 document.addEventListener("DOMContentLoaded", () => {
